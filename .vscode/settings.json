@@ -1,0 +1,37 @@
+{
+    "[cpp]": {
+        "editor.formatOnType": true,
+        "editor.formatOnSave": true,
+        "editor.renderIndentGuides": true,
+        "editor.insertSpaces": true,
+        "editor.detectIndentation": true,
+        "editor.tabSize": 4
+    },
+    "clang.executable" : "C:\\Program Files\\LLVM\\bin\\clang.exe",
+    "files.encoding": "cp950",
+    "clang.cxxflags": [
+        "-std=c++11",
+        "-IC:\\MinGW\\include",
+        "-IC:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include",
+        "-IC:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include\\c++",
+        "-I${workspaceRoot}\\include",
+        "-I${cwd}"
+    ],
+    "clang.cflags":[
+        "-std=c99",
+        "-IC:\\MinGW\\include",
+        "-IC:\\MinGW\\lib\\gcc\\mingw32\\6.3.0\\include",
+        "-I${workspaceRoot}\\include",
+        "-I${cwd}"
+    ],
+    "files.associations": {
+        "ostream": "cpp",
+        "iostream": "cpp",
+        "*.tcc": "cpp",
+        "functional": "cpp",
+        "algorithm": "cpp",
+        "xhash": "cpp",
+        "xtree": "cpp",
+        "xutility": "cpp"
+    }
+}

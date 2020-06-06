@@ -58,6 +58,5 @@ int main()
             cout << max << endl;
         }
     }
-    cout << "test" << endl;
     return 0;
 }
